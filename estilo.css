@@ -1,0 +1,148 @@
+/* Características comunes que se aplican a todo el body, como el color de fondo */
+
+body	{
+	background-color:#8ed1fc;
+	}
+
+
+/* Características específicas de todos los td*/
+	
+td 		{
+	border:2px solid #8ed1fc;
+	border-collapse: collapse;
+	}
+
+
+
+/* Características específicas de todos los td del banner superior*/
+
+td.top {
+	background-color: #8ed1fc;
+	border-radius: 35%;
+	}
+
+td.bannerV {width: 10%}
+
+ul.enlaces {
+			font-family: Lucida Console, monospace; 
+			color: white; font-size: large; text-align: right;
+			background-color:#8ed1fc;
+			float:right;
+			}
+
+/* Atributos que nos definen como se comportan las tablas dentro de la web */
+
+table {
+	width:100%;
+	background-color:#8ed1fc;
+	padding: 180px;
+	margin:auto;
+	border-collapse: collapse;
+		}
+
+table.topbanner {
+	width:1500px; border-radius: 15px;
+	background-color: #8ed1fc;
+	font-family: Lucida Console, Courier New, monospace; font-size: xx-large; text-align:center; padding-top: 20px;
+		}
+
+table.articulos{
+	height:600px; width:1090px;
+		}
+
+table.productos{
+	font-family: Lucida Console, Courier New, monospace; font-size: x-small;
+	height:200px; width:200px; 
+	border-spacing:10px; 
+	border-collapse:collapse; 
+	background-color:white;
+	border-radius: 5%;
+		}	
+
+	
+	
+	
+/* Características de los banner Horizontales y Verticales como imagenes y de las imagenes de los productos*/
+	
+img.bannerH {
+				width:1080px; height:200px; border-radius:20px;
+			}
+
+
+img.bannerV {
+				width:200px; height:600px; border-radius:10px; margin:auto;
+			}
+
+
+img.producto {
+				width:auto; height:100px; display: block; margin-left:auto; margin-right:auto;
+			}
+
+
+
+
+/* Estilos de los desplegables */
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+  border-radius:10px;
+	}
+
+li {
+  float: left;
+	}
+	
+li a, .dropbtn {
+  display: inline-block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+	}
+
+li a:hover, .dropdown:hover .dropbtn {
+  background-color: #3498DB;
+	}
+
+li.dropdown {
+  display: inline-block;
+	}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: white;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+	}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+	}
+
+.dropdown-content a:hover {
+  background-color: #5499c7; color: white;
+  text-shadow: 2px 2px 20px #154360;
+	}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+	}
+	
+	
+	
+	
+li.actual {
+		background-color: #3498DB;
+				}
+				
+				
